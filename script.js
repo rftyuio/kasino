@@ -1,6 +1,6 @@
 // Данные кейса с разными редкостями
 const caseItems = [
-    { name: "Glock-18 | Берег", price: 50, img: "https://assets.lis-skins.com/market_images/187245_b.png", rarity: "common" },
+    { name: "Glock-18 | Берег", price: 50, img: "https://wiki.cs.money/_next/static/images/glock-18-cbacf12dbd4be93910ad9ebc54580111.png", rarity: "common" },
     { name: "USP-S | Костолом", price: 80, img: "https://wiki.swapskins.com/storage/skins/img/usp-s-target-acquired.png", rarity: "uncommon" },
     { name: "AK-47 | Красная линия", price: 150, img: "https://community.fastly.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszJemkV09-5lpKKqPrxN7LEmyVS7cYg3LuT94qm21GyqUpsa2j7IIDDJwI7YwvRrFi7lOa5hpfpvs_A1zI97fpmYHCU/360fx360f", rarity: "rare" },
     { name: "AWP | Электрический горилль", price: 300, img: "https://images.steamusercontent.com/ugc/1007022869720429039/A6ADF0427323CE50745F66EDCA0587FB312102CB/?imw=512&imh=384&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true", rarity: "mythical" },
