@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Показываем кейс при загрузке
     caseRollElement.innerHTML = `
-        <img src="https://static.wikia.nocookie.net/counterstrike/images/9/9e/Bravo-case-1-.png/revision/latest/smart/width/386/height/259?cb=20150721113718&path-prefix=ru" 
+        <img src="https://img.championat.com/news/big/f/u/v-cs-go-vyshel-novyj-kejs-pervyj-za-polgoda_16567606201446229397.jpg" 
              id="case-closed" 
              class="case-closed">
     `;
