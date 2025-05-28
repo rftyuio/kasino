@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS:GO Case Opening Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <h1>🎮 CS:GO Case Simulator</h1>
+            <div class="balance">Баланс: <span id="user-balance">1000</span>₽</div>
+        </div>
+
+        <div class="case-screen">
+            <div class="case-roll" id="case-roll">
+                <img src="https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAR17P7NdDBA7cyzhr-ckvD1JbXummJW4NFOhujT8om70Qzk_RJvYzv7J4fAegY6M1nV-QS_xO-7h5S7vJrNzHI3vHIf4X3ZylS3gRVNPGs9JmDWJwjXZQj5VnJXSQ/360fx360f" 
+                     id="case-closed" 
+                     class="case-closed">
+            </div>
+            <button id="open-case">Открыть кейс (100₽)</button>
+            
+            <div class="result-actions" id="result-actions" style="display: none;">
+                <button id="sell-item">Продать скин (<span id="sell-price">0</span>₽)</button>
+                <button id="open-again">Открыть снова (100₽)</button>
+            </div>
+        </div>
+
+        <div class="inventory">
+            <h2>📦 Инвентарь (<span id="inventory-count">0</span>)</h2>
+            <div class="items" id="inventory"></div>
+        </div>
+
+        <div class="add-balance">
+            <h3>Пополнить баланс</h3>
+            <input type="number" id="deposit-amount" placeholder="Сумма" min="100">
+            <button id="deposit-btn">Пополнить</button>
+        </div>
+    </div>
+
+    <audio id="caseOpenSound" src="https://www.soundjay.com/buttons/sounds/button-09.mp3"></audio>
+    <audio id="itemRevealSound" src="https://www.soundjay.com/buttons/sounds/button-21.mp3"></audio>
+    <audio id="sellSound" src="https://www.soundjay.com/buttons/sounds/button-10.mp3"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
